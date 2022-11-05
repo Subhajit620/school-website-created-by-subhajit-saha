@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- <h1>This is login page</h1> -->
+    <div class="containermain">
+    <div class="container1">
+
+<h1>Login Your Account </h1>
+<img class="img1" src="https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA5fHxzY2hvb2x8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+
+    </div>
+  
+    <div class="container2">
+      
+<label for="Id.No:">Id.No:</label>
+<input type="text">
+<label for="password"  >Password:</label>
+<input type="password">
+<br>
+<button class="btn">LOGIN</button>
+
+    </div>
+
+</div>
+</body>
+<script>
+
+    $(".container1").hover(function(){
+        $(".img1").fadeToggle(3000);
+    })
+
+
+    $(".btn").mouseup(function(){
+        $(".btn").css("background-color", "rgb(249, 117, 16)","3000");
+
+    })
+
+    
+    $(".btn").mousedown(function(){
+        $(".btn").css("background-color", "red","3000");
+
+    })
+</script>
+</html>

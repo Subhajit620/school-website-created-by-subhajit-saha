@@ -1,0 +1,114 @@
+.container2{
+    margin-top: 20px;
+    height: 200px;
+    width: 1500px;
+text-align: justify;
+margin: auto;
+margin-bottom: 0px;
+}
+
+/* .container2.container3{
+  height: 100px;
+  width: 100px;
+} */
+.maincontainer{
+   margin-top: 40px;
+   text-align: center;
+ background-color: aqua;
+
+}
+.image1{
+height: auto;
+/* width: auto; */
+ width: 1900px;
+ opacity: 0.5;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: rgb(255, 251, 238);
+}
+
+.main2{
+    margin-top: 100px;
+   margin-bottom: 10px;
+    display: flex;
+   justify-content: center
+}
+
+.class1{
+background-color: rgba(255, 255, 255, 0.74);
+margin-left: 20px;
+height: 240px;
+width: 450px;
+border: 2px solid rgb(86, 85, 85);
+text-align: center;
+background-image: url(https://resize.indiatvnews.com/en/resize/newbucket/360_-/2021/10/icse-1635500573.jpg);
+border-radius: 30px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.class1:hover{
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 5px 5px rgb(126, 126, 126));
+    height: 245px;
+
+}
+
+.class2{
+    background-color: rgba(255, 255, 255, 0.74);
+    margin-left: 20px;
+    height: 240px;
+    width: 450px;
+    border: 2px solid rgb(86, 85, 85);
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1522661067900-ab829854a57f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHNjaG9vbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    }
+
+.class2:hover{
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 5px 5px rgb(126, 126, 126));
+    height: 245px;
+
+}
+
+
+
+
+    .class3{
+        background-color: rgba(255, 255, 255, 0.74);
+        margin-left: 20px;
+        height: 240px;
+        width: 450px;
+        border: 2px solid rgb(86, 85, 85);
+        text-align: center;
+        background-image: url(https://images.livemint.com/img/2021/07/20/600x338/98b43b1e-9d42-11eb-be65-85052eb7e245_1623894075406_1626744169048.jpg);
+        border-radius: 30px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        }
+
+        
+.class3:hover{
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 5px 5px rgb(126, 126, 126));
+    height: 245px;
+
+}
+        .image2{
+            height: 200px;
+            width: 300px;
+       display: flex;
+ margin: auto;
+
+        }
